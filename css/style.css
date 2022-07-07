@@ -1,0 +1,99 @@
+html {
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Bahnschrift", "Open Sans", sans-serif;
+    background-color: #d9d9d9;
+}
+
+input[type="text"], input[type="email"], input[type="url"] {
+    /*width: ;*/
+}
+
+input[type="submit"] {
+    font-size: 18px;
+}
+
+textarea {
+    resize: none;
+}
+
+.label {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+table {
+    /*border-collapse: collapse;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: black 1px solid;
+    font-size: 16px;
+    max-width: 90%;
+    /*table-layout: fixed;*/
+    /*word-wrap:break-word;*/
+}
+
+table th {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+table td {
+    padding: 5px 10px 5px 10px;
+    border-left: grey 1px solid;
+    border-right: grey 1px solid;
+}
+
+td:first-child {
+    border-left: none;
+    text-transform: capitalize;
+}
+
+td:last-child {
+    border-right: none;
+    margin-bottom: 2rem;
+    white-space:pre-wrap;
+}
+
+.button {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid darkgrey;
+    border-right: 2px solid dimgrey;
+    border-bottom: 2px solid dimgray;
+    border-left: 2px solid darkgrey;
+    border-radius: 5px;
+}
+
+.button:hover{
+    /*font: bold 11px Arial;*/
+    background-color: royalblue;
+    text-shadow: 1px 1px black;
+    color: white;
+    border: black 2px solid;
+    cursor: pointer;
+}
+
+/*a {*/
+/*    color: blue;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: darkblue;*/
+/*    !*text-decoration: underline;*!*/
+/*}*/
+
+footer {
+    padding-top: 10px;
+    font: 12px monospace;
+    color: dimgray;
+}
